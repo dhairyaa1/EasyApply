@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/../WorkspaceWs/LoginService/pom.xml" />
         <option value="$PROJECT_DIR$/../WorkspaceWs/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/../WorkspaceWs/WorkspaceApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../WorkspaceWs/WorkspaceServiceRegistry/pom.xml" />
       </list>
     </option>
   </component>
