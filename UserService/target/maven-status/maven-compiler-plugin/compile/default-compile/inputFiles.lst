@@ -1,0 +1,13 @@
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\repositories\UserAccountRepositoryFactory.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\entities\UserSecrets.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\shared\ApplicationConfig.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\services\UserAccountServiceBAL.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\UserServiceApplication.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\dal\UserAccountDAL.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\services\UserAccountService.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\controllers\UserDetailsController.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\repositories\UserAccountRepository.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\dtos\UserAccountDetails.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\shared\StoredProcedureNames.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\configuration\Configuration.java
+D:\Git\WorkspaceWs\UserService\src\main\java\com\workspace\userservice\repositories\UserAccountRepositoryImp.java
