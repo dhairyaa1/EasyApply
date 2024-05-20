@@ -1,9 +1,0 @@
-eureka:
-   instance:
-      hostname: localhost
-   client: 
-      register-with-eureka: false
-      fetch-registry: false
-debug: true
-server:
-   port: 9001
