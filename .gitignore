@@ -1,0 +1,5 @@
+/UserService/target/
+/common/target/
+/LoginService/target/
+/WorkspaceApiGateway/target/
+/WorkspaceServiceRegistry/target/

@@ -6,8 +6,11 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+
+
+	<bean id="workspaceUserAccountRepositoryImp" class="com.workspace.userservice.repositories.UserAccountRepositoryImp">
+	</bean>
+	<bean id="userAccountRepositoryFactory" class="com.workspace.userservice.repositories.UserAccountRepositoryFactory"/>
 	<bean name="userAccountService" class="com.workspace.userservice.services.UserAccountServiceBAL"/>
 
-	<bean id="workspaceUserAccountRepository" class="com.workspace.userservice.repositories.UserAccountRepositoryImp"/>
-	<bean id="userAccountRepositoryFactory" class="com.workspace.userservice.repositories.UserAccountRepositoryFactory"/>
 </beans>

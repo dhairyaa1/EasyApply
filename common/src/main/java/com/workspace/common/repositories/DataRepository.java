@@ -27,7 +27,6 @@ import jakarta.persistence.ParameterMode;
 import javax.xml.crypto.Data;
 
 
-@NoRepositoryBean
 public class DataRepository<T, ID> extends SimpleJpaRepository<T, ID> implements JpaRepository<T, ID> {
 
 
