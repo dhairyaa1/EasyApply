@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33f23955-3f63-4230-89e2-d0d9f736fbbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/EasyApply.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/com/easyapply/LoadBalancer/LoadBalancerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/src/test/java/com/easyapply/LoadBalancer/LoadBalancerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/LoginServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/LoginServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/controllers/JWTAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/controllers/JWTAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/jwt/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/jwt/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/jwt/AuthenticationServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/jwt/AuthenticationServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/models/JWTSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/models/JWTSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/models/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/models/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/java/com/workspace/loginservice/models/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/java/com/easyapply/loginservice/models/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/src/test/java/com/workspace/loginservice/LoginServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginService/src/test/java/com/easyapply/loginservice/LoginServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/LoginServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/controllers/JWTAuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/jwt/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/jwt/AuthenticationServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/models/JWTSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/models/UserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/classes/com/workspace/loginservice/models/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginService/target/test-classes/com/workspace/loginservice/LoginServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/dependencies/com/workspace/common/1.0/common-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/controllers/UserDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/controllers/UserDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/dal/UserAccountDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/dal/UserAccountDAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/entities/UserAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/entities/UserAccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/entities/UserSecrets.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/entities/UserSecrets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/repositories/UserAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/repositories/UserAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/repositories/UserAccountRepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/repositories/UserAccountRepositoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/repositories/UserAccountRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/repositories/UserAccountRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/services/UserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/services/UserAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/services/UserAccountServiceBAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/services/UserAccountServiceBAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/shared/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/shared/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/workspace/userservice/shared/StoredProcedureNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/easyapply/userservice/shared/StoredProcedureNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/test/java/com/workspace/userservice/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/test/java/com/easyapply/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/UserServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/configuration/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/controllers/UserDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/dal/UserAccountDAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/entities/UserAccountDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/entities/UserSecrets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/repositories/UserAccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/repositories/UserAccountRepositoryFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/repositories/UserAccountRepositoryImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/services/UserAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/services/UserAccountServiceBAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/shared/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/workspace/userservice/shared/StoredProcedureNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/src/main/java/com/workspace/WorkspaceApiGateway/WorkspaceApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/easyapply/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/src/test/java/com/workspace/WorkspaceApiGateway/WorkspaceApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/test/java/com/easyapply/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceApiGateway/target/classes/com/workspace/WorkspaceApiGateway/WorkspaceApiGatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/src/main/java/com/workspace/service/registry/WorkspaceServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/easyapply/service/registry/ServiceRegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/src/test/java/com/workspace/service/registry/WorkspaceServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/test/java/com/easyapply/service/registry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkspaceServiceRegistry/target/classes/com/workspace/service/registry/WorkspaceServiceRegistryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/Filters/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/Filters/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/configuration/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/configuration/ConnectionNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/configuration/ConnectionNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/configuration/DatabaseNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/configuration/DatabaseNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/models/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/models/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/models/DynamicParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/models/DynamicParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/repositories/DataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/repositories/DataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/workspace/common/services/HttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/services/HttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/workspace/common/exceptionhandling/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/exceptionhandling/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/workspace/common/exceptionhandling/UserFriendlyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/easyapply/common/exceptionhandling/UserFriendlyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/CommonApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/Filters/AuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/configuration/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/configuration/ConnectionNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/configuration/DatabaseNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/models/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/models/DynamicParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/repositories/DataRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/services/HttpService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/workspace/common/services/HttpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/workspace/common/exceptionhandling/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/workspace/common/exceptionhandling/UserFriendlyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gjaD2KuvuZcbMLHmSRmCtDF8Ez" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGateway.executor": "Run",
+    "Application.ServiceRegistry.executor": "Run",
+    "Application.UserService.executor": "Run",
+    "Maven.ApiGateway [clean].executor": "Run",
+    "Maven.ApiGateway [compile].executor": "Run",
+    "Maven.ApiGateway [validate].executor": "Run",
+    "Maven.common [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Git/EasyApply/ServiceRegistry",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.UserService">
+    <configuration name="ApiGateway" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.easyapply.apigateway.ApiGatewayApplication" />
+      <module name="ApiGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistry" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.easyapply.service.registry.ServiceRegistryApplication" />
+      <module name="ServiceRegistry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserService" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.easyapply.userservice.UserServiceApplication" />
+      <module name="UserService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApiGateway" />
+      <item itemvalue="Application.ServiceRegistry" />
+      <item itemvalue="Application.UserService" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f23955-3f63-4230-89e2-d0d9f736fbbc" name="Changes" comment="" />
+      <created>1716213318241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716213318241</updated>
+    </task>
+    <servers />
+  </component>
+</project>

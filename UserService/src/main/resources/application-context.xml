@@ -8,9 +8,9 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 
 
-	<bean id="workspaceUserAccountRepositoryImp" class="com.workspace.userservice.repositories.UserAccountRepositoryImp">
+	<bean id="easyapplyUserAccountRepositoryImp" class="com.easyapply.userservice.repositories.UserAccountRepositoryImp">
 	</bean>
-	<bean id="userAccountRepositoryFactory" class="com.workspace.userservice.repositories.UserAccountRepositoryFactory"/>
-	<bean name="userAccountService" class="com.workspace.userservice.services.UserAccountServiceBAL"/>
+	<bean id="userAccountRepositoryFactory" class="com.easyapply.userservice.repositories.UserAccountRepositoryFactory"/>
+	<bean name="userAccountService" class="com.easyapply.userservice.services.UserAccountServiceBAL"/>
 
 </beans>

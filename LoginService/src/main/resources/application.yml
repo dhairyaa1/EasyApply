@@ -1,6 +1,6 @@
 app:
    jwt:
-      client-id: 27657STYD.workspace.com
+      client-id: 27657STYD.easyapply.com
       client-secret: yd!5756hvEAHZHRYHTH
       
 server:

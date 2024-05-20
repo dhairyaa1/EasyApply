@@ -1,0 +1,33 @@
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  application:
+    name: ApiGateway
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+server:
+  port: 9142
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone : http://localhost:9001/eureka
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          DEBUG

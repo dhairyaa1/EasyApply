@@ -8,7 +8,7 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.workspace</groupId>
+	<groupId>com.easyapply</groupId>
 	<artifactId>LoginService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>LoginService</name>
@@ -17,6 +17,14 @@
 		<jwt.version>0.12.3</jwt.version>
 		<java.version>20</java.version>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>localrepository</id>
+			<url>file://${project.basedir}/dependencies</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 			<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -27,7 +35,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+		<dependency>
+			<groupId>com.easyapply</groupId>
+			<artifactId>common</artifactId>
+			<version>1.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
@@ -47,7 +60,6 @@
 		    <artifactId>jjwt</artifactId>
 		    <version>${jwt.version}</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>

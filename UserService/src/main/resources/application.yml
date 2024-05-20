@@ -14,8 +14,8 @@ logging:
               jpa: DEBUG
 spring:
   datasource:
-    workspace:
-      url: jdbc:sqlserver://LAPTOP-855CFJLD\SQLEXPRESS:1433;databaseName=WORKSPACE;encrypt=true;trustServerCertificate=true
+    easyapply:
+      url: jdbc:sqlserver://LAPTOP-855CFJLD\SQLEXPRESS:1433;databaseName=EasyApply;encrypt=true;trustServerCertificate=true
       username: admin
       password: admin123
       driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver

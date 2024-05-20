@@ -9,7 +9,7 @@
 		<version>3.1.7</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.workspace</groupId>
+	<groupId>com.easyapply</groupId>
 	<artifactId>UserService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>UserService</name>
@@ -47,7 +47,7 @@
 			<artifactId>spring-cloud-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.workspace</groupId>
+			<groupId>com.easyapply</groupId>
 			<artifactId>common</artifactId>
 			<version>1.0</version>
 		</dependency>
