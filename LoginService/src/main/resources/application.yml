@@ -2,6 +2,18 @@ app:
    jwt:
       client-id: 27657STYD.easyapply.com
       client-secret: yd!5756hvEAHZHRYHTH
-      
+      signing-key: 0E30EDD4FF6C264FF7B4D91E39239245985D88D6C3B56DA317F7958F285B5745
+      issuer: "552523JTBGEWD.easyapply.com"
 server:
    port: 7777
+
+
+spring:
+   datasource:
+      url: jdbc:sqlserver://LAPTOP-855CFJLD\SQLEXPRESS:1433;databaseName=EasyApply;encrypt=true;trustServerCertificate=true
+      username: admin
+      password: admin123
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+   jpa:
+      hibernate:
+         ddl-auto: validate
