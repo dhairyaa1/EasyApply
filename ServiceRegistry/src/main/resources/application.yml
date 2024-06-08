@@ -6,4 +6,4 @@ eureka:
       fetch-registry: false
 debug: true
 server:
-   port: 9001
+   port: 9002
