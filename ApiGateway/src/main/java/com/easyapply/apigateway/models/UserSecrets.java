@@ -11,8 +11,8 @@ import javax.persistence.Entity;
 @Setter
 public class UserSecrets {
 
-	private String userName;
+	private String username;
 
-	private String passWord;
+	private String password;
 
 }
