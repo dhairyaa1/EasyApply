@@ -1,38 +1,34 @@
 package com.easyapply.apigateway.filters;
 
 import com.easyapply.apigateway.services.AuthenticationService;
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.gateway.filter.GatewayFilterChain;
+import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Component;
-import org.springframework.web.filter.OncePerRequestFilter;
-
-import javax.naming.AuthenticationException;
-import java.io.IOException;
+import org.springframework.web.server.ServerWebExchange;
+import reactor.core.publisher.Mono;
 
 @Component
-public class JWTAuthenticationFilter extends OncePerRequestFilter {
+public class JWTAuthenticationFilter implements GlobalFilter {
     @Autowired
+    @Lazy
     AuthenticationService authenticationService;
+
+
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        var header = request.getHeader("token");
-        if(header == null)
-        {
-            throw new ServletException();
-        }
-        else {
-             var httpResponse = authenticationService.checkForCredentials(header);
-             if(httpResponse.getStatusCode().equals(401))
-            {
-                throw new ServletException();
+    public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
+
+            var header = exchange.getRequest().getHeaders();
+            if (!header.containsKey("token")) {
+                exchange.getResponse().setStatusCode(HttpStatusCode.valueOf(401));
+                throw new RuntimeException("Unauthorised");
+            } else {
+                  var httpResponse = authenticationService.checkForCredentials(header.get("token").get(0));
+
+                    return chain.filter(exchange);
+                }
             }
-             else
-             {
-                 filterChain.doFilter(request, response);
-             }
-        }
+
     }
-}

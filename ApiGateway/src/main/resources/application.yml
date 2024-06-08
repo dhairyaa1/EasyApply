@@ -1,33 +1,32 @@
 spring:
-  main:
-    web-application-type: reactive
   cloud:
     gateway:
+      routes:
+        - id: UserService
+          uri: lb://UserService
+          predicates:
+            - Path=/user-details/**
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true
   application:
     name: ApiGateway
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
-
-
 server:
-  port: 9142
+  port: 9143
 eureka:
   instance:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone : http://localhost:9001/eureka
+      defaultZone : http://localhost:9002/eureka
 logging:
   level:
     org:
       springframework:
         web:
           DEBUG
+
+app:
+  services:
+    loginService: http://localhost:7778/
