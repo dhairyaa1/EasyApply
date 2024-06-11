@@ -5,9 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
 
+@SpringBootApplication
 @ImportResource("application-context.xml")
-@SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 public class LoginServiceApplication {
 
 	public static void main(String[] args) {

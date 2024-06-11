@@ -1,15 +1,13 @@
 package com.easyapply.loginservice.controllers;
 
 import com.easyapply.loginservice.entities.UserSecrets;
+import com.easyapply.loginservice.jwt.AuthenticationServiceImp;
 import com.easyapply.loginservice.models.JWTResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.*;
-
-import com.easyapply.loginservice.jwt.AuthenticationServiceImp;
 
 import java.util.concurrent.ExecutionException;
 
