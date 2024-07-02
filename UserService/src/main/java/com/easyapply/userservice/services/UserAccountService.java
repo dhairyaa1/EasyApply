@@ -6,5 +6,5 @@ import java.util.concurrent.ExecutionException;
 import com.easyapply.userservice.entities.UserAccountDetails;
 
 public interface UserAccountService {
-	public CompletableFuture<UserAccountDetails> getByUserName(String userName)  throws InterruptedException, ExecutionException;
+	public UserAccountDetails getByUserName(String userName)  throws InterruptedException, ExecutionException;
 }

@@ -33,7 +33,7 @@ public class UserAccountServiceBAL implements UserAccountService{
 	private String connectionName = ConnectionNames.easyApply;
 
 
-	public CompletableFuture<UserAccountDetails> getByUserName(String userName) throws InterruptedException, ExecutionException
+	public UserAccountDetails getByUserName(String userName) throws InterruptedException, ExecutionException
 	{
         return userAccountRepository.getByUserName(userName);
 	}

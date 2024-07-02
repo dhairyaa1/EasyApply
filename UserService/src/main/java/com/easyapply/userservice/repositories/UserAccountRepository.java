@@ -8,5 +8,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserAccountRepository  extends JpaRepository<UserAccountDetails, Long> {
 	
-	public CompletableFuture<UserAccountDetails> getByUserName(String userName) throws InterruptedException, ExecutionException;
+	public UserAccountDetails getByUserName(String userName) throws InterruptedException, ExecutionException;
 }
