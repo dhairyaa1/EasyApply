@@ -7,29 +7,22 @@ import java.net.http.HttpResponse;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.client.RestTemplate;
 
 public class HttpService {
 
-	private final String url;
-	private final HttpClient client = HttpClient.newHttpClient();
-
-	public HttpService(String url) {
-		this.url = url;
-
-	}
+	@Autowired
+	RestTemplate restTemplate;
 
 	
-	public <T, O> O post(T object) throws Exception {
-		ObjectMapper mapper = new ObjectMapper();
-
-		HttpRequest request = HttpRequest.newBuilder(URI.create(url)).header("", "")
-				.POST(HttpRequest.BodyPublishers.ofString( mapper.writeValueAsString(object))).build();
-
-		HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-		System.out.println(response);
-		O output ;
-		
-		output = mapper.readValue(response.body(), mapper.constructType(new TypeReference<O>() {}));
-		return output ;
+	public <T, O> O post(String url, T object, Class<O> returnClass) throws Exception {
+		return (O) restTemplate.postForObject(url, object, returnClass.getClass());
+	}
+	public <T, O> O get(String url, T object, Class<O> returnClass) throws Exception {
+		return (O) restTemplate.getForObject(url, returnClass.getClass());
+	}
+	public <T> void delete(String url, T object) throws Exception {
+		 restTemplate.delete(url);
 	}
 }
