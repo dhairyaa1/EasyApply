@@ -1,0 +1,27 @@
+
+spring:
+  application:
+    name:
+      CompanyDetailsService
+  datasource:
+    url: jdbc:sqlserver://LAPTOP-855CFJLD\SQLEXPRESS:1433;databaseName=EasyApply;encrypt=true;trustServerCertificate=true
+    username: admin
+    password: admin12
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone : http://localhost:9002/eureka
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
