@@ -22,11 +22,9 @@ public class UserAccountRepositoryImp extends DataRepository<UserAccountDetails,
         this.easyapplyEntityManager = entityManager;
 	}
 
-	@Async
 	public UserAccountDetails getByUserName(String userName) throws InterruptedException, ExecutionException
 	{
 			var session = easyapplyEntityManager.unwrap(Session.class);
-			//System.out.println("repo " + Thread.currentThread().getName());
 
 			var query = session.createQuery("select u from UserAccountDetails u where u.userName = :userName", UserAccountDetails.class);
 			query.setParameter("userName", userName);

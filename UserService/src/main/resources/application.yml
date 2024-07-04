@@ -17,7 +17,7 @@ spring:
     easyapply:
       url: jdbc:sqlserver://LAPTOP-855CFJLD\SQLEXPRESS:1433;databaseName=EasyApply;encrypt=true;trustServerCertificate=true
       username: admin
-      password: admin123
+      password: admin12
       driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
   jpa:
@@ -37,4 +37,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone : http://localhost:9001/eureka
+      defaultZone : http://localhost:9002/eureka

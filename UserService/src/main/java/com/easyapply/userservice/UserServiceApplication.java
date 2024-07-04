@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @ImportResource({"classpath*:application-context.xml"})
 @EntityScan(basePackages = {"com.easyapply.userservice.entities"})
-@ComponentScan({"com.easyapply.userservice"})
 @EnableAsync
 public class UserServiceApplication {
 
