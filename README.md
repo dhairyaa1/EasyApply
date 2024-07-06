@@ -6,6 +6,7 @@ This project is based on microservices architecture. It is only backend project,
 4) It has user service, using which we can get data about users.
 5) It has Application service through which users can apply to any job. It also have some async methods to get the whole application detail parallelly.
 6) It has a company details service, to add/update/delete new company.
+7) Added validations for invalid input to api.
 ToDos:
 
 1)Use Centralized configuration from git repo insted of adding in seperate microservices(Achived using spring cloud config).
